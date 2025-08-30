@@ -32,8 +32,7 @@ Abra o arquivo `index.html` no navegador.
 
 ## Acesse online
 
-Você pode acessar o projeto funcionando em:  
-https://lazarobatista.github.io/Starbucks-page/
+Você pode acessar o projeto funcionando em: https://lazarobatista.github.io/Starbucks-page/
 
 ## Tecnologias
 
