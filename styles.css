@@ -18,8 +18,6 @@ body {
     align-items: center;
 }
 
-
-
 .textos {
     width: 600px;
 }
@@ -96,3 +94,48 @@ button:hover {
     z-index: -1;
 }
 
+@media (max-width:400px) {
+    body {
+        padding: 20px;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textos {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    span {
+        font-size: 50px;
+    }
+
+    .caixa-imagem {
+        margin: 0 auto 0 auto;
+        width: 100%;
+    }
+
+    .starbucks {
+        width: 100px;
+        height: auto;
+        margin: 0 0 30px 0;
+    }
+    button {
+        padding: 5px;
+        font-size: 14px;
+        margin: 10px;
+    }
+    .botao-menu {
+        width: 60px;
+        margin: 5px;
+    }
+    .circulo {
+        clip-path: circle(140px at right 600px);
+    }
+}
